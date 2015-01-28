@@ -1,0 +1,159 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c4e724eb777962e7ac58fd616c4a8b55",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.0.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/1bff8aa77a18f3616f468ed8000cf86a5725bac3",
+                "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3",
+                "shasum": ""
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2015-01-11 03:51:11"
+        },
+        {
+            "name": "domnikl/statsd",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/domnikl/statsd-php.git",
+                "reference": "9d347344e2806fca3aa42a27c9bce9ab6bf9c293"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/domnikl/statsd-php/zipball/9d347344e2806fca3aa42a27c9bce9ab6bf9c293",
+                "reference": "9d347344e2806fca3aa42a27c9bce9ab6bf9c293",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">= 4.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Domnikl\\Statsd\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dominik Liebler",
+                    "email": "liebler.dominik@gmail.com"
+                }
+            ],
+            "description": "a PHP client for statsd",
+            "homepage": "https://domnikl.github.com/statsd-php",
+            "keywords": [
+                "Metrics",
+                "monitoring",
+                "statistics",
+                "statsd",
+                "udp"
+            ],
+            "time": "2015-01-08 10:33:55"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
